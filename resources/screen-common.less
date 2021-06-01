@@ -13,7 +13,7 @@ body {
 	color: @text;
 	// Footer colour; results in a weird distracting dark scrollbar in firefox, but fuck firefox
 	// Setting it here avoids a jump to white after the footer, which is even more distracting
-	background: @base30;
+	background: @base100;
 	font-size: @font-size;
 	line-height: 1.5;
 }
@@ -37,7 +37,7 @@ body {
 .mw-footer-container {
 	border-top: solid 1px @base20;
 	box-shadow: inset 0 7px 2px -4px rgba( 0, 0, 0, 0.1 );
-	color: @base100;
+	color: @text;
 
 	a {
 		color: darken( @blue-bright, 3% );
@@ -194,13 +194,13 @@ body {
 /* Content */
 
 #mw-content-container {
-	background: @base80;
-	border-bottom: solid 4px @green;
+	background: @base100;
+	border-bottom: solid 4px @cyan;
 
 	/* Background image (default cat) */
 	background-image: @backdrop-image;
 	background-repeat: no-repeat;
-	background-position: center 10em;
+	background-attachment: fixed;
 }
 
 .tools-inline,
@@ -220,11 +220,11 @@ body {
 	border-bottom: solid 3px transparent;
 
 	&:hover {
-		border-bottom-color: @base70;
+		border-bottom-color: @base80;
 	}
 
 	&.selected {
-		border-bottom-color: @blue;
+		border-bottom-color: @cyan-bright;
 
 		a {
 			color: @text;
@@ -525,7 +525,7 @@ pre,
 
 	h1.firstHeading {
 		margin: 0.25em 0 0.5em;
-		border-bottom: solid 4px @blue;
+		border-bottom: solid 4px @cyan;
 	}
 
 	h1 {
@@ -821,7 +821,7 @@ body :not( :checked ) > .toctogglespan:after {
 
 .color-left {
 	height: @color-height;
-	background: @red-dark;
+	background: @cyan-dark;
 	width: 50%;
 	float: left;
 }
@@ -829,7 +829,7 @@ body :not( :checked ) > .toctogglespan:after {
 .color-right {
 	display: inline-block;
 	height: @color-height;
-	background: @green-dark;
+	background: @cyan-dark;
 	width: 50%;
 	float: right;
 }
@@ -842,7 +842,7 @@ body :not( :checked ) > .toctogglespan:after {
 
 .color-middle {
 	height: @color-height;
-	background: @blue-dark;
+	background: @cyan-dark;
 	margin-left: @column-left-size + 1em;
 	margin-right: @column-right-size + 1em;
 }
