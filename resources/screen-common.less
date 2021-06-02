@@ -865,3 +865,10 @@ body :not( :checked ) > .toctogglespan:after {
 #p-search h3 {
 	.hidden;
 }
+
+/* Fixes for weird default behavior*/
+.mw-category-group {
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
