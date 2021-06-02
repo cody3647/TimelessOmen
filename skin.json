@@ -146,7 +146,11 @@
 			"+ext.wikiLove.icon": "resources/extensions/WikiLove.icon.less",
 			"+ext.proofreadpage.page.navigation": "resources/extensions/Proofreadpage.page.navigation.less",
 			"+ext.CodeMirror": "resources/extensions/CodeMirror.less",
-			"+ext.wikiEditor.styles": "resources/extensions/WikiEditor.less"
+			"+ext.wikiEditor.styles": "resources/extensions/WikiEditor.less",
+			"+ext.cargo.main":"resources/extensions/Cargo.less",
+			"+ext.cargo.cargotables":"resources/extensions/Cargo.less",
+			"+ext.cargo.pagevalues":"resources/extensions/Cargo.less",
+			"+ext.cargo.diagram":"resources/extensions/Cargo.less"
 		}
 	},
 	"AutoloadClasses": {
