@@ -147,16 +147,29 @@
 			"+ext.proofreadpage.page.navigation": "resources/extensions/Proofreadpage.page.navigation.less",
 			"+ext.CodeMirror": "resources/extensions/CodeMirror.less",
 			"+ext.wikiEditor.styles": "resources/extensions/WikiEditor.less",
-			"+ext.cargo.main":"resources/extensions/Cargo.less",
-			"+ext.cargo.cargotables":"resources/extensions/Cargo.less",
-			"+ext.cargo.pagevalues":"resources/extensions/Cargo.less",
-			"+ext.cargo.diagram":"resources/extensions/Cargo.less"
+			"+ext.cargo.main": "resources/extensions/Cargo.less",
+			"+ext.cargo.cargotables": "resources/extensions/Cargo.less",
+			"+ext.cargo.pagevalues": "resources/extensions/Cargo.less",
+			"+ext.cargo.diagram": "resources/extensions/Cargo.less",
+			"+ext.pageforms.main": "resources/extensions/PageForms.less",
+			"+mediawiki.diff.styles": "resources/extensions/mediawiki.diff.less"
 		}
 	},
 	"AutoloadClasses": {
 		"SkinTimeless": "includes/SkinTimeless.php",
 		"TimelessTemplate": "includes/TimelessTemplate.php",
-		"TimelessVariablesModule": "includes/TimelessVariablesModule.php"
+		"TimelessVariablesModule": "includes/TimelessVariablesModule.php",
+		"OOUI\\OmenTheme": "includes/OmenTheme.php"
+	},
+	"SkinOOUIThemes": {
+		"timeless": "Omen"
+	},
+	"OOUIThemePaths": {
+		"Omen": {
+			"scripts": "resources/libraries/ooui/oojs-ui-omen.js",
+			"styles": "resources/libraries/ooui/oojs-ui-{module}-omen.css",
+			"images": "resources/libraries/ooui/{module}.json"
+		}
 	},
 	"manifest_version": 2
 }

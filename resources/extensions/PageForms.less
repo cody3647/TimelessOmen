@@ -1,0 +1,120 @@
+@import '../variables.less';
+/**
+ * Timeless Omen PageForm CSS
+ */
+
+/* Used in 'create template' page */
+.fieldBox {
+	border: 1px @border solid;
+	background: #ddd;
+}
+
+/* another possible layout */
+table.formtable2 {
+	background: transparent;
+}
+
+/** INPUT FIELD STYLE */
+#pfForm .createboxInput,
+#pfForm .mandatoryField,
+#pfForm textarea {
+	border: 1px solid #bbb;
+}
+
+#pfForm input[ readonly ] {
+	background: #eee;
+}
+
+#pfForm textarea,
+form input.formInput,
+#pfForm input.yearInput,
+#pfForm input.dayInput,
+#pfForm input.hoursInput,
+#pfForm input.minutesInput,
+#pfForm input.secondsInput {
+	border: 1px solid #bbb;
+}
+
+/* The dropdowns need slightly different settings. */
+#pfForm select.monthInput,
+#pfForm select.ampmInput {
+	border: 1px solid #bbb;
+}
+
+.select2-choices,
+.select2-choice {
+	border: 1px solid #bbb;
+}
+
+/** /INPUT FIELD STYLE */
+
+/* Override Select2 Style */
+.select2-drop-active {
+	border: 1px solid #999;
+}
+
+.select2-container .select2-choice > .select2-chosen {
+	color: #000;
+}
+
+div.infoMessage {
+	border: 1px solid #777;
+	background: #eee;
+}
+
+div.errorMessage {
+	color: @red;
+}
+
+.inputError {
+	background: #fceeee;
+}
+
+input.modifiedInput {
+	background: #ffdde5;
+}
+
+.multipleTemplateInstance {
+	background-color: @base90;
+	border: 1px solid #a2a9b1;
+}
+
+.multipleTemplateInstance.sortable-chosen {
+	background-color: @base80;
+}
+
+.multipleTemplateInstance table {
+	color: inherit;
+	background-color: inherit;
+}
+/*
+a.addAboveButton {
+  background: center / contain no-repeat #000 url('PF_add_above.svg');
+}
+
+a.removeButton {
+  background: center / contain no-repeat #000 url('PF_remove.svg');
+} */
+
+/*
+td.instanceRearranger {
+  background-image: url(rearrangeDots.png);
+  background-repeat: repeat;
+} */
+
+/* button elements seem to need a little more width */
+/* Override CSS from Header Tabs extension, if tabs are used in the form */
+input.pfComboBoxActual {
+	border: 1px solid #a6a6a6;
+}
+
+.pfTokensGhost {
+	color: #777;
+	background-color: #f7f7f7 !important;
+	border: 1px solid #ddd !important;
+}
+
+/* The standard MediaWiki editOptions class lacks a top border. */
+div.editOptions {
+	border: 1px solid #c8ccd1;
+}

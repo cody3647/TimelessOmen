@@ -1,0 +1,59 @@
+@import '../variables.less';
+/*!
+ * Diff coloring for Timeless Omen
+ */
+
+.mw-diff-inline-added ins,
+.mw-diff-inline-changed ins {
+	background: @blue-dark;
+}
+
+.mw-diff-inline-deleted del,
+.mw-diff-inline-changed del {
+	background: @red-dark;
+}
+
+.diff-context {
+	background: @base80;
+	border-color: @base30;
+	color: @base0;
+}
+
+.diff-addedline {
+	border-color: @blue;
+}
+
+.diff-deletedline {
+	border-color: @red;
+}
+
+.diffchange {
+	.diff-addedline & {
+		background: @blue-dark;
+	}
+
+	.diff-deletedline & {
+		background: @red-dark;
+	}
+}
+
+/*!
+ * Wikidiff2 rendering for moved paragraphs
+ */
+
+.mw-diff-movedpara-left,
+.mw-diff-movedpara-right {
+	&,
+	&:visited,
+	&:active {
+		color: transparent;
+	}
+
+	&:hover {
+		color: transparent;
+	}
+
+	&:after {
+		color: @base90;
+	}
+}
