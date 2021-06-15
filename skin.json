@@ -78,7 +78,7 @@
 				"resources/libraries/normalise.css": {
 					"media": "screen"
 				},
-				"resources/libraries/shared.css": {
+				"resources/libraries/shared.less": {
 					"media": "screen"
 				},
 				"resources/forms.less": {
@@ -152,6 +152,7 @@
 			"+ext.cargo.pagevalues": "resources/extensions/Cargo.less",
 			"+ext.cargo.diagram": "resources/extensions/Cargo.less",
 			"+ext.pageforms.main": "resources/extensions/PageForms.less",
+			"+ext.pageforms.select2": "resources/extensions/PageFormsSelect2.less",
 			"+mediawiki.diff.styles": "resources/extensions/mediawiki.diff.less"
 		}
 	},
