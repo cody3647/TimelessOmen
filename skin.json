@@ -150,6 +150,7 @@
 			"+ext.cargo.main": "resources/extensions/Cargo.less",
 			"+ext.cargo.cargotables": "resources/extensions/Cargo.less",
 			"+ext.cargo.pagevalues": "resources/extensions/Cargo.less",
+			"+ext.cargo.datatables": "resources/extensions/Cargo.dataTables.css",
 			"+ext.cargo.diagram": "resources/extensions/Cargo.less",
 			"+ext.pageforms.main": "resources/extensions/PageForms.less",
 			"+ext.pageforms.select2": "resources/extensions/PageFormsSelect2.less",
