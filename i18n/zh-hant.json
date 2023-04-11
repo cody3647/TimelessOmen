@@ -12,7 +12,7 @@
 		]
 	},
 	"skinname-timeless": "Timeless",
-	"timeless-desc": "Timeless外觀是Brandon Harris繼Winter外觀的原型所設計的，其中的各種樣式來自維基媒體基金會",
+	"timeless-desc": "Timeless 外觀是 Brandon Harris 繼 Winter 外觀的原型所設計的，其中的各種樣式來自維基媒體基金會",
 	"timeless-anonymous": "匿名",
 	"timeless-loggedinas": "以 '''$1''' 登入。",
 	"timeless-notloggedin": "尚未登入",
@@ -31,5 +31,7 @@
 	"timeless-languages": "語言",
 	"timeless-projects": "其它專案",
 	"timeless.css": "/* 此處所有的 CSS 都會在使用者使用 Timeless 外觀時載入 */",
-	"timeless.js": "/* 此處所有的 JavaScript 都會在使用者使用 Timeless 外觀時載入 */"
+	"timeless.js": "/* 此處所有的 JavaScript 都會在使用者使用 Timeless 外觀時載入 */",
+	"timeless-view-history": "歷史",
+	"timeless-action-undelete": "取消刪除 {{PLURAL:$1|1|$1}} 個編輯"
 }

@@ -8,8 +8,8 @@ input {
 
 // Because weird special cases that get broken by this usually aren't forms?
 form {
-	// Special-case out the datetime widget
-	input:not( .mw-widgets-datetime-dateTimeInputWidget-editField ) {
+	// Special-case out the datetime widget and revision-compare button
+	input:not( .mw-widgets-datetime-dateTimeInputWidget-editField ):not( .mw-history-compareselectedversions-button ) {
 		margin: 0.5em 0;
 		padding: 0.35em;
 	}
@@ -18,6 +18,11 @@ form {
 	.oo-ui-tagMultiselectWidget-handle input {
 		margin: unset;
 		padding: unset;
+	}
+
+	// Padding on checkboxes seems to cause misalignment with its text
+	.oo-ui-checkboxInputWidget input:not( .mw-widgets-datetime-dateTimeInputWidget-editField ):not( .mw-history-compareselectedversions-button ) {
+		margin: unset;
 	}
 }
 
@@ -101,8 +106,8 @@ form:not( .oo-ui-layout ) {
 		color: #fff;
 		border: solid 1px #36c;
 
-		&:hover,
-		&:active {
+		&:not( :disabled ):hover,
+		&:not( :disabled ):active {
 			background-color: #47f;
 		}
 	}
@@ -126,15 +131,15 @@ form:not( .oo-ui-layout ) {
 	font-size: inherit;
 }
 
-.mw-editfont-monospace {
+body .mw-editfont-monospace {
 	font-family: @fonts-mono;
 }
 
-.mw-editfont-sans-serif {
+body .mw-editfont-sans-serif {
 	font-family: @fonts-sans;
 }
 
-.mw-editfont-serif {
+body .mw-editfont-serif {
 	font-family: @fonts-serif;
 }
 
