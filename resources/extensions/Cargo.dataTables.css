@@ -17,27 +17,27 @@ table.dataTable tfoot td {
  */
 
 table.dataTable thead .sorting {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23ddd' d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z'%3E%3C/path%3E%3C/svg%3E");
+	background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23ddd' d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z'%3E%3C/path%3E%3C/svg%3E" );
 	background-size: 1em;
 }
 
 table.dataTable thead .sorting_asc {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%2345C3B8' d='M279 224H41c-21.4 0-32.1-25.9-17-41L143 64c9.4-9.4 24.6-9.4 33.9 0l119 119c15.2 15.1 4.5 41-16.9 41z'%3E%3C/path%3E%3C/svg%3E");
+	background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%2345C3B8' d='M279 224H41c-21.4 0-32.1-25.9-17-41L143 64c9.4-9.4 24.6-9.4 33.9 0l119 119c15.2 15.1 4.5 41-16.9 41z'%3E%3C/path%3E%3C/svg%3E" );
 	background-size: 1em;
 }
 
 table.dataTable thead .sorting_desc {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%2345C3B8' d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z'%3E%3C/path%3E%3C/svg%3E");
+	background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%2345C3B8' d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z'%3E%3C/path%3E%3C/svg%3E" );
 	background-size: 1em;
 }
 
 table.dataTable thead .sorting_asc_disabled {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23999999' d='M279 224H41c-21.4 0-32.1-25.9-17-41L143 64c9.4-9.4 24.6-9.4 33.9 0l119 119c15.2 15.1 4.5 41-16.9 41z'%3E%3C/path%3E%3C/svg%3E");
+	background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23999999' d='M279 224H41c-21.4 0-32.1-25.9-17-41L143 64c9.4-9.4 24.6-9.4 33.9 0l119 119c15.2 15.1 4.5 41-16.9 41z'%3E%3C/path%3E%3C/svg%3E" );
 	background-size: 1em;
 }
 
 table.dataTable thead .sorting_desc_disabled {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23999999' d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z'%3E%3C/path%3E%3C/svg%3E");
+	background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23999999' d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z'%3E%3C/path%3E%3C/svg%3E" );
 	background-size: 1.3em;
 }
 
@@ -212,7 +212,7 @@ table.dataTable.no-footer {
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
 	color: #ddd !important;
 	border: 1px solid #54595d;
-	background-color: #003232;
+	background: #003232;
 	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #186565 ), color-stop( 100%, #003232 ) );
 	/* Chrome,Safari4+ */
 	background: -webkit-linear-gradient( top, #186565 0%, #003232 100% );
@@ -238,7 +238,7 @@ table.dataTable.no-footer {
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
 	color: #ccc !important;
 	border: 1px solid #111;
-	background-color: #585858;
+	background: #585858;
 	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #585858 ), color-stop( 100%, #111 ) );
 	/* Chrome,Safari4+ */
 	background: -webkit-linear-gradient( top, #585858 0%, #111 100% );
@@ -255,7 +255,7 @@ table.dataTable.no-footer {
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:active {
 	outline: none;
-	background-color: #2b2b2b;
+	background: #2b2b2b;
 	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #2b2b2b ), color-stop( 100%, #0c0c0c ) );
 	/* Chrome,Safari4+ */
 	background: -webkit-linear-gradient( top, #2b2b2b 0%, #0c0c0c 100% );
@@ -272,18 +272,18 @@ table.dataTable.no-footer {
 }
 
 .dataTables_wrapper .dataTables_processing {
-	background-color: #25382d;
-	background: -webkit-gradient( linear, left top, right top, color-stop( 0%, rgba( 255, 255, 255, 0 ) ), color-stop( 25%, rgba(33, 49, 36, 0.45)), color-stop( 75%, rgba(42, 30, 30, 0.9)), color-stop( 100%, rgba( 255, 255, 255, 0 ) ) );
+	background: #25382d;
+	background: -webkit-gradient( linear, left top, right top, color-stop( 0%, rgba( 255, 255, 255, 0 ) ), color-stop( 25%, rgba( 33, 49, 36, 0.45 ) ), color-stop( 75%, rgba( 42, 30, 30, 0.9 ) ), color-stop( 100%, rgba( 255, 255, 255, 0 ) ) );
 	/* Chrome,Safari4+ */
-	background: -webkit-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba(33, 49, 36, 0.45) 25%, rgba(42, 30, 30, 0.9) 75%, rgba( 255, 255, 255, 0 ) 100% );
+	background: -webkit-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 33, 49, 36, 0.45 ) 25%, rgba( 42, 30, 30, 0.9 ) 75%, rgba( 255, 255, 255, 0 ) 100% );
 	/* Chrome10+,Safari5.1+ */
-	background: -moz-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba(33, 49, 36, 0.45) 25%, rgba(42, 30, 30, 0.9) 75%, rgba( 255, 255, 255, 0 ) 100% );
+	background: -moz-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 33, 49, 36, 0.45 ) 25%, rgba( 42, 30, 30, 0.9 ) 75%, rgba( 255, 255, 255, 0 ) 100% );
 	/* FF3.6+ */
-	background: -ms-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba(33, 49, 36, 0.45) 25%, rgba(42, 30, 30, 0.9) 75%, rgba( 255, 255, 255, 0 ) 100% );
+	background: -ms-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 33, 49, 36, 0.45 ) 25%, rgba( 42, 30, 30, 0.9 ) 75%, rgba( 255, 255, 255, 0 ) 100% );
 	/* IE10+ */
-	background: -o-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba(33, 49, 36, 0.45) 25%, rgba(42, 30, 30, 0.9) 75%, rgba( 255, 255, 255, 0 ) 100% );
+	background: -o-linear-gradient( left, rgba( 255, 255, 255, 0 ) 0%, rgba( 33, 49, 36, 0.45 ) 25%, rgba( 42, 30, 30, 0.9 ) 75%, rgba( 255, 255, 255, 0 ) 100% );
 	/* Opera 11.10+ */
-	background: linear-gradient( to right, rgba( 255, 255, 255, 0 ) 0%, rgba(33, 49, 36, 0.45) 25%, rgba(42, 30, 30, 0.9) 75%, rgba( 255, 255, 255, 0 ) 100% );
+	background: linear-gradient( to right, rgba( 255, 255, 255, 0 ) 0%, rgba( 33, 49, 36, 0.45 ) 25%, rgba( 42, 30, 30, 0.9 ) 75%, rgba( 255, 255, 255, 0 ) 100% );
 	/* W3C */
 }
 
@@ -318,5 +318,5 @@ tr.shown td.details-control {
 }
 
 .dataTables_wrapper .dataTables_paginate .ellipsis {
-	color:#65cdc4;
+	color: #65cdc4;
 }
